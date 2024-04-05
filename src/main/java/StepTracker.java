@@ -16,7 +16,7 @@ public class StepTracker
     return 0;
   for(int i = 0 ; i < daysWorked.size(); i++){
     if(daysWorked.get(i) >= activeNum)
-      count++
+      count++;
   }
   return count;
  }
