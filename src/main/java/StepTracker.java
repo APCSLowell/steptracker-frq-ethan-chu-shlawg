@@ -23,7 +23,7 @@ public class StepTracker
  public double averageSteps(){
   int totalSteps = 0;
   for(int i = 0; i < daysWorked.size(); i++){
-   totalSteps+=daysWorked(i);
+   totalSteps+=daysWorked.get(i);
   }
   double average = totalSteps/daysWorked.size();
   return average;
