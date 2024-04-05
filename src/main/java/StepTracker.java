@@ -1,10 +1,10 @@
 import java.util.ArrayList;
 public class StepTracker
 {
- private ArrayList <Integers> daysWorked;
+ private ArrayList <Integer> daysWorked;
  private int activeNum;
  public StepTracker(int active){
-  daysWorked = new ArrayList<Integers>();
+  daysWorked = new ArrayList<Integer>();
   activeNum = active;
  }
  public void addDailySteps(int numSteps){
